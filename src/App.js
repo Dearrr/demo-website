@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Stack } from "@mui/material";
+import LandingPage from "./Component/LandingPage/LandingPage";
+import Content from "./Component/LandingPage/Content/Content";
+import ShowCase from "./Component/ShowCase/ShowCase";
+import Footer from "./Component/Footer/Footer";
+import Crew from "./Component/Crew/Crew";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Stack width={"100%"} justifyContent={"center"} alignItems={"center"} margin={"0 auto"}>
+      <LandingPage />
+      <Content />
+      <ShowCase />
+      <Crew />
+      <Footer />
+    </Stack>
   );
 }
 
