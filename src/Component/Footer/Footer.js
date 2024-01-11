@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 import Text from "../Utils/Text/Text";
@@ -14,16 +14,16 @@ const Footer = () => {
         padding={{ xs: "40px 0px", md: "45px 0px" }}
         gap={{ xs: 1, md: 0 }}
       >
-        <Text color="#ffff" fontSize="24px" fontWeight="700" $textAlign="center">
+        <Typography color="mainText" fontSize="24px" fontWeight="700" align="center">
           Startup 3
-        </Text>
+        </Typography>
         <Stack flexDirection={{ xs: "column", md: "row" }} gap={{ xs: 1, md: 4 }}>
-          <Text color="#ffff" fontSize="16px" fontWeight="400" $textAlign="center">
+          <Typography color="mainText" fontSize="16px" fontWeight="400" align="center">
             Privacy Policy
-          </Text>
-          <Text color="#ffff" fontSize="16px" fontWeight="400" $textAlign="center">
+          </Typography>
+          <Typography color="mainText" fontSize="16px" fontWeight="400" align="center">
             Term
-          </Text>
+          </Typography>
         </Stack>
       </Stack>
       {/* <Stack width={{ xs: "100%" }} maxWidth={"1400px"} padding={{ xs: "40px 0px", md: "45px 30px" }}>
@@ -38,23 +38,23 @@ const Footer = () => {
         gap={{ xs: 1, md: 0 }}
       >
         <Stack flexDirection={{ xs: "column", md: "row" }} gap={{ xs: 1, md: 4 }}>
-          <Text color="#ffff" fontSize="16px" fontWeight="400" $textAlign="center">
+          <Typography color="mainText" fontSize="16px" fontWeight="400" align="center">
             Tour
-          </Text>
-          <Text color="#ffff" fontSize="16px" fontWeight="400" $textAlign="center">
+          </Typography>
+          <Typography color="mainText" fontSize="16px" fontWeight="400" align="center">
             Features
-          </Text>
-          <Text color="#ffff" fontSize="16px" fontWeight="400" $textAlign="center">
+          </Typography>
+          <Typography color="mainText" fontSize="16px" fontWeight="400" align="center">
             Pricing Plan
-          </Text>
-          <Text color="#ffff" fontSize="16px" fontWeight="400" $textAlign="center">
+          </Typography>
+          <Typography color="mainText" fontSize="16px" fontWeight="400" align="center">
             Our Works
-          </Text>
+          </Typography>
         </Stack>
 
-        <Text color="#ffff" fontSize="16px" fontWeight="400" $textAlign="center">
+        <Typography color="mainText" fontSize="16px" fontWeight="400" align="center">
           © 2024 Designmodo. All rights reserved.
-        </Text>
+        </Typography>
       </Stack>
     </FooterWrapper>
   );

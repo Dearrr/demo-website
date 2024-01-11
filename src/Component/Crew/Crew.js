@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 import Text from "../Utils/Text/Text";
@@ -45,13 +45,13 @@ const Crew = () => {
   return (
     <CrewWrapper>
       <Stack justifyContent={{ xs: "center" }} width={{ md: "1400px" }} padding={{ xs: "40px 15px", md: "100px 30px" }} gap={2}>
-        <Text color="#ffff" fontSize="42px" fontWeight="700">
+        <Typography color="mainText" fontSize="42px" fontWeight="700">
           Startup Crew
-        </Text>
-        <Text color="#ffff" fontSize="22px" fontWeight="500">
+        </Typography>
+        <Typography color="mainText" fontSize="22px" fontWeight="500">
           The most important part of the Startup Framework is the samples. The samples form a set of 25 usable pages you
           can use as is or you can add new blocks from UI Kit.
-        </Text>
+        </Typography>
         <WorksGrid>
           {crews.map((crew) => (
             <CrewItem key={crew.id} crew={crew} />

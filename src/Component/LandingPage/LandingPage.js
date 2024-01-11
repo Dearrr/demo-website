@@ -1,4 +1,4 @@
-import { Box, Stack } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 import Text from "../Utils/Text/Text";
 import LandingPageContent from "./components/LandingPageContent";
@@ -15,9 +15,9 @@ const LandingPage = () => {
           <LandingPageContent />
           <Box marginTop="58px">
             <Button $backGroundcolor="#482BE7" $padding={"17px 35px"} $borderRadius="100px">
-              <Text fontSize="18px" fontWeight="500" color="#fff">
+              <Typography fontSize="18px" fontWeight="500" color="mainText">
                 Create An Account
-              </Text>
+              </Typography>
             </Button>
           </Box>
         </Stack>

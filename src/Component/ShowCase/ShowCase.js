@@ -1,7 +1,7 @@
 import React from "react";
 import Text from "../Utils/Text/Text";
 import styled from "styled-components";
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import ShowCaseItem from "./component/ShowCaseItem";
 import Work1 from "../../Assets/work1.jpg";
 import Work2 from "../../Assets/work2.jpg";
@@ -38,9 +38,9 @@ const ShowCase = () => {
   return (
     <BackGroundImage>
       <Stack width={{ xs: "100%", md: "1400px" }} padding={{ xs: "40px 15px", md: "100px 30px" }} gap={6}>
-        <Text color="#ffff" fontWeight="700" fontSize="42px">
+        <Typography color="mainText" fontWeight="700" fontSize="42px">
           Last Works
-        </Text>
+        </Typography>
         <WorksGrid>
           {worksItem.map((item) => (
             <ShowCaseItem key={item.id} item={item} />

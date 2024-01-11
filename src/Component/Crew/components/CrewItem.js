@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import React from "react";
 import Text from "../../Utils/Text/Text";
 import styled from "styled-components";
@@ -8,12 +8,12 @@ const CrewItem = (props) => {
   return (
     <Stack gap={1.5} alignItems={{ xs: "center" }}>
       <CrewImage src={image} alt="" />
-      <Text color="#ffff" fontSize="22px" fontWeight="500">
+      <Typography color="mainText" fontSize="22px" fontWeight="500">
         {name}
-      </Text>
-      <Text color="#ffff" fontSize="16px" fontWeight="400">
+      </Typography>
+      <Typography  color="mainText" fontSize="16px" fontWeight="400">
         {position}
-      </Text>
+      </Typography>
     </Stack>
   );
 };
