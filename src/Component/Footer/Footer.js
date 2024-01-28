@@ -9,7 +9,7 @@ const Footer = () => {
       <Stack
         flexDirection={{ xs: "column", md: "row" }}
         justifyContent={{ xs: "center", md: "space-between" }}
-        width={{ xs: "100%" }}
+        width={{ xs: "calc(100% - 30px)" }}
         maxWidth={"1400px"}
         padding={{ xs: "40px 0px", md: "45px 0px" }}
         gap={{ xs: 1, md: 0 }}
@@ -32,7 +32,7 @@ const Footer = () => {
       <Stack
         flexDirection={{ xs: "column", md: "row" }}
         justifyContent={{ xs: "center", md: "space-between" }}
-        width={{ xs: "100%" }}
+        width={{ xs: "calc(100% - 30px)" }}
         maxWidth={"1400px"}
         padding={{ xs: "40px 0px", md: "45px 0px" }}
         gap={{ xs: 1, md: 0 }}

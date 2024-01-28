@@ -1,16 +1,16 @@
 import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
-import Text from "../Utils/Text/Text";
 import LandingPageContent from "./components/LandingPageContent";
 import Button from "../Utils/Text/Button";
 import LandingPageBg from "../../Assets/LandingPageBg.png";
 import styled from "styled-components";
 import Menu from "../Menu/Menu";
+
 const LandingPage = () => {
   return (
     <BackGroundImage>
-      <Box>
-        {/*  <Menu /> */}
+      <Box >
+        {/* <Menu /> */}
         <Stack justifyContent={"center"} alignItems={"center"} padding={{ xs: "0 15px" }}>
           <LandingPageContent />
           <Box marginTop="58px">

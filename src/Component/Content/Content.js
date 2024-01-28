@@ -1,8 +1,7 @@
 import { Stack, Typography } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
-import ContentBg from "../../../Assets/contentBg.jpg";
-import Text from "../../Utils/Text/Text";
+
 const Content = () => {
   return (
     <BackGroundImage>
